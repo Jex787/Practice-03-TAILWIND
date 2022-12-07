@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        penguinbg: '#FFF9F4',
+                        itembg: '#F1F1F1',
+                        price: '#FA804C',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/354c0cf8f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="bg-penguinbg px-3 sm:px-0 pb-12">
+        <nav class="flex justify-between items-center container mx-auto mb-4 sm:mb-0 pt-9">
+            <img class="w-2/4 sm:w-1/4" src="images/icons/Logo.png" alt="">
+            <div class="sm:flex gap-14 hidden">
+                <h2 class="text-2xl font-semibold"><a href="">Home</a></h2>
+                <h2 class="text-2xl font-semibold"><a href="">Product</a></h2>
+                <h2 class="text-2xl font-semibold"><a href="">About us</a></h2>
+                <h2 class="text-2xl font-semibold"><a href="">Contact us</a></h2>
+            </div>
+            <div class="sm:hidden">
+                <h2 class="text-2xl font-semibold"><a href=""><i class="fa-solid fa-bars"></i></a></h2>
+            </div>
+        </nav>
+        <section class="flex flex-col-reverse sm:flex-row justify-between items-center container mx-auto">
+            <div class=" mt-5 sm:mt-0 sm:w-2/4">
+                <img class="" src="images/Group 33092.png" alt="">
+            </div>
+            <div class="">
+                <h2 class="uppercase text-orange-500 font-bold text-4xl sm:text-5xl">Nike React</h2>
+                <h2 class="uppercase font-bold text-4xl sm:text-5xl">Infinity Run 2</h2>
+                <p class="my-4">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.</p>
+                <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                        class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                    NOW</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <!-- CASUAL SHOES -->
+        <section class="mt-12 container mx-auto">
+            <h2 class="text-4xl font-bold mb-8 text-center sm:text-left">CASUAL SHOES</h2>
+            <div class="grid sm:grid-cols-3 gap-7">
+                <div class="p-5 shadow-md rounded-lg">
+                    <div class="p-1 bg-itembg">
+                        <img src="images/image 5.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4">Nike Shoe</h3>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-bold text-price">$234</h3>
+                        <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                                class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                            NOW</button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-md rounded-lg">
+                    <div class="p-1 bg-itembg">
+                        <img src="images/Daco_1703273 1.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4">Sneakers Skate Shoe </h3>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-bold text-price">$234</h3>
+                        <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                                class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                            NOW</button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-md rounded-lg">
+                    <div class="p-1 bg-itembg">
+                        <img src="images/pngegg 1.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4">Sneakers Basketball shoe</h3>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-bold text-price">$234</h3>
+                        <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                                class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                            NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FORMAL SHOES -->
+        <section class="mt-24 container mx-auto mb-32">
+            <h2 class="text-4xl font-bold mb-8 text-center sm:text-left">FORMAL SHOES</h2>
+            <div class="grid sm:grid-cols-3 gap-7">
+                <div class="p-5 shadow-md rounded-lg">
+                    <div class="p-1 rounded-lg">
+                        <img src="images/Mask Group.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4">Prestige High-Cut Leather </h3>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-bold text-price">$234</h3>
+                        <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                                class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                            NOW</button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-md rounded-lg">
+                    <div class="p-1 rounded-lg">
+                        <img src="images/Rectangle 38.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4">Slip-On Formal Shoe</h3>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-bold text-price">$234</h3>
+                        <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                                class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                            NOW</button>
+                    </div>
+                </div>
+                <div class="p-5 shadow-md rounded-lg">
+                    <div class="p-1 rounded-lg">
+                        <img src="images/Rectangle 39.png" alt="">
+                    </div>
+                    <h3 class="text-2xl font-bold mt-4">Slip-On Formal Shoe</h3>
+                    <p class="my-3">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-3xl font-bold text-price">$234</h3>
+                        <button class="bg-blue-600 text-white py-4 px-7 rounded-lg"><i
+                                class="fa-solid fa-cart-shopping mr-2"></i>BUY
+                            NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- INFO SECTION -->
+        <section class="grid grid-cols-2 gap-x-12 gap-y-3 container mx-auto mb-40">
+            <div
+                class="bg-slate-200 col-span-2 sm:col-span-1 flex flex-col sm:flex-row items-center gap-3 shadow-md rounded-lg p-4">
+                <img class="h-16" src="images/icons/image 12.png" alt="">
+                <div class="text-center sm:text-left">
+                    <h3 class="text-xl font-bold">Find the Perfect Fit</h3>
+                    <p>Everybody is different, which is why we
+                        offer styles for every body.</p>
+                </div>
+            </div>
+            <div class="sm:row-span-3"><img src="images/icons/XMLID 1.png" alt=""></div>
+            <div
+                class="bg-slate-200 col-span-2 sm:col-span-1 flex flex-col sm:flex-row items-center gap-3 shadow-md rounded-lg p-4">
+                <img class="h-16" src="images/icons/image 13.png" alt="">
+                <div class="text-center sm:text-left">
+                    <h3 class="text-xl font-bold">Free Exchanges</h3>
+                    <p>One of the many reasons you can shop
+                        with peace of mind.</p>
+                </div>
+            </div>
+            <div
+                class="bg-slate-200 col-span-2 sm:col-span-1 flex flex-col sm:flex-row items-center gap-3 shadow-md rounded-lg p-4">
+                <img class="h-16" src="images/icons/image 14.png" alt="">
+                <div class="text-center sm:text-left">
+                    <h3 class="text-xl font-bold">Contact Our Seller</h3>
+                    <p>They are here to help you. That's quite
+                        literally what we pay them for.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<footer class="bg-black py-28">
+    <h3 class="text-gray-500 font-bold text-center">Copyright © 2022 Penguin Fastion.</h3>
+    <hr class="mx-12 my-5">
+    <div class="flex items-center justify-center gap-x-4">
+        <a class="text-gray-500" href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a class="text-gray-500" href=""><i class="fa-brands fa-twitter"></i></a>
+        <a class="text-gray-500" href=""><i class="fa-brands fa-instagram"></i></a>
+    </div>
+</footer>
+
+</html>
